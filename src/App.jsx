@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Single-Peaked Preference Checker</h1>
+      <h1>Single-Peaked Profile Checker</h1>
       <p>Enter a candidate profile.<br/>Write <i>abcdef</i> to indicate a vote where a is ranked first, b is ranked
 second, etc. <br/> Comma-separate each ranking, e.g. abcd,bdac,dcab.</p>
       <form onSubmit={handleSubmit}>
