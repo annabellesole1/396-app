@@ -59,7 +59,7 @@ second, etc. <br/> Comma-separate each ranking, e.g. abcd,bdac,dcab.</p>
 
       {result && (
         <p>
-          Axis: {Array.isArray(result) ? result.join(" > ") : result}
+          {Array.isArray(result) ? `Axis: ${result.join(" > ")}` : result}
         </p>
       )}
     </div>
